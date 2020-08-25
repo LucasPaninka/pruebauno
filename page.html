@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viajes El Paisaje - Viajes</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+
+
+<body>
+<header>
+<h1 style="text-align:center;font-size:40px;margin-bottom:6px;"><b>Viajes "El Paisaje"</b></h1>
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li style="text-align:center;color:white;">Destinos
+            <ul>
+                <li><a href="index.html#dub">Dubái</a></li>
+                <li><a href="index.html#bra">Brasil</a></li>
+                <li><a href="index.html#fra">Francía</a></li>
+            </ul>
+        </li>
+        <li><a href="page.html">Viajes</a></li>
+        <li><a href="about.html">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+
+
+<section class="main">
+
+
+<h2 style="text-align:center;">EMPEZÁ TU VIAJE</h2>
+<h3>Completá el siguiente formularío y lo asesoraremos.</h3>
+
+<!--La carga de datos no retorna a ningun lado, es solo un ejemplo-->
+<form action="index.html">
+    <fieldset>
+        <legend><b>Registre sus datos:</b></legend>
+        Nombres:<br>
+        <input type="text" name="nombres">
+        <br>
+        Apellido:<br>
+        <input type="text" name="apellido">
+        <br>
+        Email:<br>
+        <input type="email" name="mail">
+        <br>
+        Telefono:<br>
+        <input type="text" name=tel>
+        <br>
+        Viaje:<br>
+        <select name="viaje">
+            <option value="-">-Elegir-</option>
+            <option value="dub">Dubái</option>
+            <option value="bra">Brasil</option>
+            <option value="fra">Francía</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Registrar" onclick="alert('Datos Registrados')">
+    </fieldset>
+</form>
+
+
+</section>
+
+
+<footer>
+<p>Lucas Paninka 2020</p>
+</footer>
+
+
+</body>
+</html>
